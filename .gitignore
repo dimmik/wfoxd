@@ -1,0 +1,9 @@
+/target/
+**/*.rs.bk
+*.pdb
+
+# локальные настройки Claude Code и редакторов
+.claude/settings.local.json
+.vs/
+.vscode/
+.idea/
