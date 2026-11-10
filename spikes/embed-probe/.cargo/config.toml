@@ -1,0 +1,5 @@
+# На Linux сборка под Windows (mingw) и запуск через wine:
+#   cargo build --release --target x86_64-pc-windows-gnu
+#   cargo run   --release --target x86_64-pc-windows-gnu
+[target.x86_64-pc-windows-gnu]
+runner = "wine"

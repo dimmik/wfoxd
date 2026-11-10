@@ -1,0 +1,13 @@
+# Одноразовый спайк встраивания окон (этап 1 из docs/PLAN.md).
+# Отдельный пакет вне будущего workspace: код грязный, unsafe везде.
+[package]
+name = "wfoxd-probe"
+version = "0.3.0"
+edition = "2021"
+publish = false
+
+[workspace]
+
+[profile.release]
+opt-level = "s"
+strip = true
